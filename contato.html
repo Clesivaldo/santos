@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Gilson Construções - Reformas e Construções em Geral </title>
+      <meta name="description" content="Precisando reformar ou construir, temos a solução ideal para seu desejo, desde uma simples reforma a um grande projeto">
+      <meta name="keywords" content="reformas e construções">
+      <meta name="robots" content="index, follow">
+      <meta name="author" content="Clesivaldo Santos">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+      <link rel="icon" href="img/icon.teste.png">
+    </head>
+    <body>
+
+      <!-- nav superior --> 
+      <section class="fixed">
+      <nav class="navbar">
+        <span class="navbar-redes">
+    <div class="siga">Siga-nos</div>
+    <div class="redes">      
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+          </div>
+  </span>
+
+   <span class="navbar-text">
+    <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511948869829"><i class="navbar-numero">(11) 94886-9829</i></a>
+    <a href="#"><i class="navbar-whats fa fa-whatsapp"></i></a>
+    <div class="orca">Orçamento gratis</div>
+  </span>
+
+  
+</nav>
+        <!-- CABEÇALHO --> 
+        <header class="cabecalho container">
+           <a href="index.html"><h1 class="logo container"> Falta Logo</h1></a>           
+           <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+            
+             <nav class="menu">
+               <a class="btn-close"><i class="fa fa-times"></i></a>
+               <ul>
+                   <li><a href="index.html">Início</a></li>
+                   </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="obras.html">Obras realizadas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre2.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="contato.html">Contato</a>
+                </li>                   
+               </ul>             
+           </nav>
+
+        </header>
+        </section>
+        
+
+       <div id="cont">
+        <section class="contato">
+          <div class="col-md-6" id="msg-box">
+              <p>Fale conosco:</p>
+              <h2>São Paulo, SP. Brasil</h2>
+              <a href="#"><h3> Whatsapp: (11) 94886-9829 </h3></a>
+              <a href="#"><h4> diegosantos2288@ghotmail.com </h4></a>              
+            </div>
+        </section>
+        <section class="formulario">
+            <div class="col-md-6" id="contact-form">
+
+              <form action="enviar-email.php" method="post">
+
+                <input type="text" class="form-control" placeholder="Seu nome" name="nome" id="name">
+                <input type="email" class="form-control" placeholder="E-mail" name="email" id="email"><br>
+                <textarea class="form-control" rows="9" placeholder="Sua mensagem..." id="message" name="message"></textarea>
+                <input type="submit" class="main-btn radius">
+              </form>
+            </div>
+        </section>
+        </div>
+
+
+  <!-- NEWSLETTER -->
+        <section class="newsletter container bg-black">
+           <h2> Inscreva-se agora! </h2>
+           <h3>  Receba novidades, dicas, promoções e muito mais </h3>
+           <form>
+              <input class="bg-black radius" type="email" name="email" placeholder="Seu email">
+              <button class="bg-white radius"> Cadastrar </button>
+           </form>
+        </section>
+        <!-- RODAPÉ -->
+        <footer class="rodape container">
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+          </div>
+
+          <p class="copyright">
+            Copyright © Gilson Construções e reformas 2018. Todos os direitos reservados.
+        </footer>       
+        
+        <!-- JQUERY --> 
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+          $(".menu").hide();
+        });
+        </script>      
+    </body>
+</html>
